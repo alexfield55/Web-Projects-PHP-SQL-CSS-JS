@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1
+{
+	size: 100px;
+	color: white;
+	margin: 10px;
+	background-color: black;
+}
+
+form, input
+{
+	margin: 5px;
+	padding: 5px;
+}
+
+div
+{
+	text-align: center;
+}
+
+.denied { color: red;}
+.granted { color: blue;}
+.main{background: url("../img/0.jpg");}
+.d{background: url("../img/1.jpg");}
+.g{background: url("../img/2.jpg");}
+

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Sulphur+Point&display=swap');
+
+body
+{
+	background: url("../img/call-to-action-bg.jpg");
+	font-family: Playfair Display, serif;
+}
+
+nav ul li a, nav ul li
+{
+	display: inline-block;
+	margin: 20px;
+}
+
+nav ul
+{
+	text-align: center;
+}
+nav ul li a:hover
+{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+nav ul li a
+{
+	color: purple;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 500ms;
+	padding: 10px;
+}
+
+.main-wrapper
+{
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.section
+{
+	border: 5px solid black;
+	background-color: whitesmoke;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+
+
+.aspect-ratio 
+{
+  position: relative;
+  width: 90%;
+  height: 0;
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.aspect-ratio iframe 
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.poslink
+{
+  position: relative;
+  width: 90%;
+  height: 0;
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.poslink iframe 
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  border: 2px solid black;
+}
+h1, h2, h3, h4, p
+{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+p{
+	
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.infographic
+{
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.position{
+	border: 2px solid black;
+	width: 90%;
+	font-family: Merriweather, serif; 
+	padding-bottom: 20px;
+	background-color: #E0E0E0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.position p
+{
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	
+}
+

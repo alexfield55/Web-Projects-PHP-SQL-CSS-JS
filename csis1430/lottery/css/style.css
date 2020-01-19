@@ -1,0 +1,38 @@
+*
+{ user-select: none;}
+	
+
+body
+{
+	background-color: black;
+}
+
+div
+{
+	width: 700px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+h1
+{
+	color: blue;
+	font-family: tahoma;
+	font-size: 50px;
+	margin: auto;
+}
+
+.choose
+{
+	color:yellow;
+}
+
+h2
+{
+	color: red;
+	font-family: tahoma;
+	font-size: 50px;
+	margin: auto;
+}
+

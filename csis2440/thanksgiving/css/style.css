@@ -1,0 +1,29 @@
+body
+{
+	font-family: tahoma;
+	background: url("../img/background.jpg");
+}
+
+div
+{
+	background-color: white;
+	width: 500px;
+}
+
+img
+{
+	width: 200px;
+}
+
+div,table, h1
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, tr, td, h1
+{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=New+Rocker|Roboto+Mono&display=swap');
+
+body
+{
+	background-color: #7D92E6;
+}
+div.display
+{
+	text-align: center;
+	
+}
+
+div.valid
+{
+	font-family: 'New Rocker', cursive;
+	padding: 5px;
+	background-color: whitesmoke;
+	text-align: center;
+	margin: 0px;
+	width: 400px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+h1
+{
+	font-family: 'Roboto Mono', monospace;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+p, form input
+{
+	font-family: 'New Rocker', cursive;
+	padding: 5px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+p.warning
+{
+	background-color: red;
+	text-align: center;
+}
+
+form input
+{
+	background-color: white;
+	text-align: center;
+}
+
+img.errorImg
+{
+	height: 400px;
+	width: auto;
+	
+}

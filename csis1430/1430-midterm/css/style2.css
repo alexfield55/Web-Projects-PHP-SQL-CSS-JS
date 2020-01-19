@@ -1,0 +1,88 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2
+{
+	color: purple;
+	text-align: center;
+	font-family: tahoma;
+}
+
+p
+{
+	font-size: 20px;
+	font-family: tahoma;
+	color: purple;
+	width: 800px;
+	display: block;
+	margin: 20px auto;
+}
+
+nav ul li a, nav ul li
+{
+	display: inline-block;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+nav ul
+{
+	text-align: center;
+}
+nav ul li a:hover
+{
+	background-color: green;
+	color: yellow;
+}
+
+nav ul li a
+{
+	color: purple;
+	background-color: cornsilk;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 20px 10px;
+	font-family: tahoma;
+}
+
+img
+{
+	margin: 20px auto;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;	
+	display: block;
+}
+
+body
+{
+	background-color: purple;
+}
+
+div.content
+{
+	width:1000px;
+	margin: 20px auto;
+	background-color: cornsilk;
+	overflow: hidden;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+div[class^="group-"] div
+{
+	clear: both;
+	overflow: hidden;
+	margin: 10px;
+	padding:10px;
+}
+
+div.group-1, div.group-3, div.group-4
+{
+	display: none;
+}
+

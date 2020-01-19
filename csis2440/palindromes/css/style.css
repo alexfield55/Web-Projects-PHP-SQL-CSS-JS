@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body
+{
+	font-family: 'Lato', sans-serif;
+	background: url("../img/logo.jpg");
+	color: white;
+}
+
+
+nav ul li a, nav ul li
+{
+	display: inline-block;
+}
+
+nav ul
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+nav ul li
+{
+	width: 300px;
+	background-color: grey;
+}
+
+nav ul li:hover, nav ul li.active
+{
+	background-color: black;	
+}
+
+nav ul li.active a
+{
+	color: red;
+}
+
+nav ul li a
+{
+	color: blue;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 10px;
+	transition: 500ms;
+}
+
+p{
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+.good
+{
+	background-color: rgba(0,255,0,.5);
+}
+
+.bad
+{
+	background-color: rgba(255,0,0,.5);
+}
+
+div.facts
+{
+	border: 1px solid black;
+	flex-basis: 32%;
+	margin: 5px;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+div.wrapper
+{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+div.dbdisplay, div.reflection
+{
+	width: 50%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+div.form
+{
+	width: 50%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black
+}
+
+div.form input
+{
+	margin: 5px;
+}
+
+h1, h2
+{
+	padding: 10px;
+	margin: 5px;
+	width: 50%;
+	background-color: black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 a: hover {color: green}
+
+h1 a
+{
+	text-decoration: none;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE>
+	<html>
+		<head>
+			<title>Live Validation</title>
+			<script src="js/script.js"></script>	
+			<!--<link href="css/style.css" rel="stylesheet" type="text/css">		-->	
+		</head>
+		<body>
+			<form action="?run=true" method="post">
+				<input id="pin" placeholder="phone" oninput="validate(this);" type="text" >
+				<input id="ein" placeholder="email" oninput="validate(this);" type="text" >
+				<input type="submit" id="submit" disabled>
+			</form>
+		
+			<p id="p"></p>
+			<p id="e"></p>
+		
+		
+		</body>
+	</html>

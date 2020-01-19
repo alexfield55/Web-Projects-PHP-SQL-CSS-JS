@@ -1,0 +1,87 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2
+{
+	color: blue;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p
+{
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	color: blue;
+}
+
+nav ul li a, nav ul li
+{
+	display: inline-block;
+	margin: 20px;
+}
+
+nav ul
+{
+	text-align: center;
+}
+nav ul li a:hover
+{
+	background-color: black;
+	color: white;
+}
+
+nav ul li a
+{
+	color: blue;
+	background-color: whitesmoke;
+	text-decoration: none;
+	font-size: 50px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	transition: 500ms;
+}
+
+img
+{
+	margin-right:10px
+}
+
+body
+{
+	background-color: blue;
+}
+
+div.content
+{
+	width:1000px;
+	margin: 20px auto;
+	background-color: whitesmoke;
+	overflow: hidden;
+	padding: 10px;
+}
+	
+img
+{
+	width: 400px;
+	display: block;
+	float: left;
+}
+
+div[class^="group-"] div
+{
+	clear: both;
+	border: 2px solid green;
+	overflow: hidden;
+	margin: 10px;
+	padding:10px;
+}
+
+div.group-2, div.group-3, div.group-4
+{
+	display: none;
+}
+

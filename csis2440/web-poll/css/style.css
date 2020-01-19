@@ -1,0 +1,49 @@
+body
+{
+	display: flex;
+	background: url(https://i.pinimg.com/originals/dd/22/fd/dd22fd5ea854563dfa12edfe2e96b257.jpg);
+}
+
+div
+{
+	display: inline-block;
+	width: 400px;
+	margin: auto;
+	background-color: #c0c0c0;
+	padding: 15px;
+}
+
+h1
+{
+	font-family: Nosifer;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2
+{
+	font-family: creepster;
+	font-size: 30px;
+	text-align: center;
+}
+
+form
+{
+	font-family: metal mania;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	
+}
+
+p
+{
+	font-family: metal mania;
+	font-size: 20px;
+}
+
+form input
+{
+	padding: 10px;
+	margin: 10px;
+}

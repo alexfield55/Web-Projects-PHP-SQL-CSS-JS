@@ -1,0 +1,92 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p
+{
+	margin: auto;
+	text-align: center;
+	color: green;
+	padding: 20px;
+	width: 300px;
+	font-size: 20px;
+}
+
+body
+{
+	background-color: cornsilk;
+}
+
+
+h1
+{
+	background-color: cornsilk;
+	color: green;
+	text-align: center;
+	padding: 10px
+}
+
+ul.menu
+{
+	background-color: cornsilk;
+	text-align: center;
+	padding-top: 10px;
+}
+
+ul.menu li
+{
+	display: inline-block;
+}
+
+ul.menu li a:hover, ul.menu li a.active
+{
+	color: purple;
+	background-color: lavender;
+}
+
+ul.menu li a
+{
+	display: inline-block;
+	color: green;
+	padding: 10px 40px;
+	font-family: tahoma;
+	text-decoration: none;
+	border-radius: 5px 5px 0 0
+	
+}
+
+form.order
+{
+	padding: 20px;
+	display: block;
+	margin: auto;
+}
+	
+
+form.order label
+{
+	background-color: cornsilk;
+	color: purple;
+	font-family: tahoma;
+	padding: 5px;
+	margin: 10px;
+}
+
+form.order input, form.order select, form.order textarea
+{
+	background-color: white;
+	color: purple;
+	font-family: tahoma;
+	padding: 5px;
+	margin: 10px;
+}
+

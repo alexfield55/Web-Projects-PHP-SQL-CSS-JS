@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Alex Field's Pizzeria</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a class="active" href="order.html">Order</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+		
+		<h1>Order Alex's Pizza</h1>
+		
+		<p>
+		Please order a delicious pizza!
+		</p>
+		
+		<form class="order" method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+		
+		<label for="first">First Name</label>
+		<br>
+		<input id="first" name="first" type="text" placeholder="First Name">
+		<br>
+		<label for="last">Last Name</label>
+		<br>
+		<input id="last" name="last" type="text" placeholder="Last Name">
+		<br>
+		<label for="add1">Address Line 1</label>
+		<br>
+		<input required id="add1" name="add1" type="text" placeholder="Address Line 1">
+		<br>
+		<label for="add2">Address Line 2</label>
+		<br>
+		<input required id="add2" name="add2" type="text" placeholder="Address Line 2">
+		<br>
+		<label for="city">City</label>
+		<br>
+		<input required id="city" name="city" type="text" placeholder="City">
+		<br>
+		<label>State</label>
+		<br>
+		<select required name="state">
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">District of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value="SD">South Dakota</option>
+			<option value="TN">Tennessee</option>
+			<option value="TX">Texas</option>
+			<option value="UT">Utah</option>
+			<option value="VT">Vermont</option>
+			<option value="VA">Virginia</option>
+			<option value="WA">Washington</option>
+			<option value="WV">West Virginia</option>
+			<option value="WI">Wisconsin</option>
+			<option value="WY">Wyoming</option>
+		</select>
+		<br>
+		<label for="zip">Zip Code</label>
+		<br>
+		<input required id="zip" name="zip" type="text" placeholder="Zip Code">
+		<br>
+		<label for="phone">Phone Number</label>
+		<br>
+		<input required id="phone" name="phone" type="text" placeholder="xxx-xxx-xxxx">
+		<br>
+		<label required for="email">Email</label>
+		<br>
+		<input id="email" name="email" type="text" placeholder="yourname@email.com">
+		<br>
+		<label for="comments">Comments</label>
+		<br>
+		<textarea id="comments" name="comments" placeholder="Any Special Requests?"></textarea>
+		<br>
+		<br>
+		
+		<label>Crusts</label>
+		<br>
+		<input name="crust" type="radio" value="thin">Thin
+		<input name="crust" type="radio" value="thick">Thick
+		<input name="crust" type="radio" value="pan">Pan
+		<input name="crust" type="radio" value="stuffed">Stuffed
+		<br>
+		<br>
+		
+		<label>Toppings</label>
+		<br>
+		<input name="toppings[]" type="checkbox" value="olives">Olives
+		<input name="toppings[]" type="checkbox" value="bacon">Bacon
+		<input name="toppings[]" type="checkbox" value="pepperoni">Pepperoni
+		<input name="toppings[]" type="checkbox" value="green peppers">Green Peppers
+		<input name="toppings[]" type="checkbox" value="blue peppers">Blue Peppers
+		<br>
+		<input name="toppings[]" type="checkbox" value="purple peppers">Purple Peppers
+		<input name="toppings[]" type="checkbox" value="orange peppers">Orange Peppers
+		<input name="toppings[]" type="checkbox" value="mushrooms">Mushrooms
+		<input name="toppings[]" type="checkbox" value="fish">Fish
+		<input name="toppings[]" type="checkbox" value="red onion">Red onion
+		<br>
+		<input name="toppings[]" type="checkbox" value="bones">Bone
+		<input name="toppings[]" type="checkbox" value="blood">Blood
+		<input name="toppings[]" type="checkbox" value="pineapple">Pineapple
+		<input name="toppings[]" type="checkbox" value="regular apple">Regular Apple
+		<input name="toppings[]" type="checkbox" value="hamburger">Hamburger
+		<br>
+		<input name="toppings[]" type="checkbox" value="hotdog">Hotdog
+		<input name="toppings[]" type="checkbox" value="sandwhich">Sandwhich
+		<input name="toppings[]" type="checkbox" value="ham">Ham
+		<input name="toppings[]" type="checkbox" value="lamb">Lamb
+		<input name="toppings[]" type="checkbox" value="Hamb">Hamb
+		<br>
+		<input name="toppings[]" type="checkbox" value="Sushi">Sushi
+		<input name="toppings[]" type="checkbox" value="another whole pizza">Another Pizza
+		<input name="toppings[]" type="checkbox" value="cat hair">Cat Hair
+		<br>
+		<br>
+		
+		<label>Size</label>
+		<br>
+		<select name="size">
+			<option value="Small">Small</option>
+			<option value="Medium">Medium</option>
+			<option value="Large">Large</option>
+			<option value="XL">XL</option>
+			<option value="XXL">XXL</option>
+			<option value="XXXL">XXXL</option>
+			<option value="XXXXL">XXXXL</option>
+			<option value="XXXXXXL">XXXXXXL</option>
+			<option value="XXXXXXXL">XXXXXXXL</option>
+		</select>
+		<br>
+		<br>
+		
+		<input type="submit">
+		<input type="reset">
+		
+		</form>
+		
+	</body>
+</html>

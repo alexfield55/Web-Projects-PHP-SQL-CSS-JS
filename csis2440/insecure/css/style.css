@@ -1,0 +1,49 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: black;
+}
+
+h1
+{
+	font-family: tahoma;
+	text-size: 30px;
+	color: white;
+	margin: 10px;
+}
+
+form, input
+{
+	margin: 5px;
+	padding: 5px;
+}
+
+.img
+{
+	margin: 20px;
+	width: 500px;
+	height: auto;
+	
+}
+
+.denied
+{
+	
+	color: red;
+
+}
+
+.granted
+{
+	color: green;
+}
+
+div
+{
+	text-align: center;
+}

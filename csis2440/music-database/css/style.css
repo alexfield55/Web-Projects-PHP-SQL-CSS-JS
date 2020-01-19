@@ -1,0 +1,118 @@
+form
+{
+	font-family: metal mania;
+	font-size: 15px;
+	margin-left: 25px;
+}
+
+form div
+{
+	display: inline-block;
+	width: 300px;
+	padding: 5px;
+}
+
+form label
+{
+	font-family: metal mania;
+	font-size: 15px;
+}
+
+form select.dropdown 
+{
+	width: 300px;
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+form select.state
+{
+	width: 50%;
+	float: right;
+}
+
+form select
+{
+	font-family: metal mania;
+	font-size: 15px;
+}
+
+form input
+{
+	font-family: metal mania;
+	font-size: 15px;
+	width: 50%;
+	float: right;
+}
+
+nav ul li a, nav ul li
+{
+	display: inline-block;
+}
+
+nav ul
+{
+	text-align: center;
+	font-family: creepster;
+	border-bottom: 5px solid black;
+	margin-top: 10px;
+}
+
+nav ul li
+{
+	width: 300px;
+	background-color: #E8E1E1;
+}
+
+nav ul li:hover, nav ul li.active
+{
+	background-color: black;	
+}
+
+nav ul li.active a
+{
+	color: red;
+}
+
+nav ul li a
+{
+	color: blue;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 10px;
+	transition: 500ms;
+}
+
+body
+{
+	background-color: #511414;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: Nosifer;
+}
+
+table
+{
+	margin: auto;
+	font-family: metal mania;
+	font-size: 20px;
+}
+
+p
+{
+	text-align: center;
+	font-family: metal mania;
+	font-size: 20px;
+}
+
+td
+{
+	padding: 5px;	
+
+}
+	

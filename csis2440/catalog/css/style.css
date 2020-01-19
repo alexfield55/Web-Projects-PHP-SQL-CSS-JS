@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family: 'Allerta Stencil', sans-serif;
+	background: url("../img/acmeposter.jpg");
+}
+
+.navbar
+{
+	top: 0px;
+	display: flex;
+	margin: 40px;
+	
+
+}
+
+nav
+{
+	border: 2px solid black;
+	padding: 10px;
+	width: 66%;
+	background: url("../img/acmebox.jpg");
+}
+nav ul li 
+{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 20px;
+	background: #990000;
+}
+nav ul li a
+{
+	display: inline-block;
+	font-size: 30px;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	color: white;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+}
+
+.login
+{
+	background-color: white;
+	margin: 20px
+}
+
+.logbox
+{
+	border: 2px solid black;
+	padding: 10px;
+	width: 33%;
+	text-align: center;
+	background: url("../img/acmebox.jpg");
+	margin-left: 10px;
+}
+
+
+
+.mainwrap
+{	
+	background: url("../img/acmebox.jpg");
+	margin: 40px;
+	border: 2px solid black;
+	margin-top: 70px;
+}
+
+#thatsall
+{
+	width: 80%;
+	margin: 20px;
+		
+}
+
+form
+{
+	margin: 20px;
+}
+
+form input{
+	text-align: right;
+}
+
+table, p
+{
+	background-color: white;
+	padding: 10px;
+	width: 60%;
+	margin: 20px;
+}
+
+table td, th
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+table td, th{
+	width: 200px;
+	text-align: right;
+}
+
+h1
+{
+	size: 100px;
+	color: white;
+	padding: 5px;
+	padding-left: 40px;
+	background-color: black;
+}
+
+p
+{
+	padding: 5px;
+}
+
+.userform
+{
+	padding-left: 40px;
+	display: block;
+	width: 63%;
+	background-color: white;
+	padding: 10px;
+	margin: 20px;
+}
+
+.cart
+{
+	margin: 20px;
+	padding-left: 40px;
+	display: block;
+	width: 60%;
+	background-color: white;
+	padding: 10px;
+}
+
+.logbox form
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+ 
+.logbox p
+{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+input
+{
+	padding: 5px;
+}
+
+
+
+

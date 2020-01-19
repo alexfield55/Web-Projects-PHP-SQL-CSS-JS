@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="playAgain();">
+		<h1>Lets Play Tic Tac Toe!</h1>
+		<div id="whose-playing">Whose Playing?</div>
+		<div id="whose-turn">Whose Turn</div>
+		
+		<form action="javascript:void(0);">
+			<input id="p1" type="text" placeholder="Player 1">
+			<input id="p2" type="text" placeholder="Player 2">
+			<input id="play" class="show" type="submit" onclick="players();" value="Set Names">
+			<input id="reset" class="show" type="submit" onclick="playAgain();" value="Play Again?">	
+		</form>
+		<div id="board"></div>
+	</body>
+</html>

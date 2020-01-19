@@ -1,0 +1,101 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2
+{
+	color: purple;
+	font-family: tahoma;
+	margin: 20px;
+}
+
+p
+{
+	font-size: 15px;
+	font-family: tahoma;
+	color: purple;
+}
+
+div.main-wrap
+{
+	display: flex;
+}
+
+nav
+{
+	flex:1;
+	background-color: black;
+}
+
+div.content
+{
+	flex:7
+}
+
+nav ul li a, nav ul li
+{
+	display: block;
+}
+
+nav ul
+{
+	margin: 20px;
+}
+nav ul li a:hover
+{
+	background-color: black;
+	color: white;
+}
+
+nav ul li a
+{
+	color: purple;
+	background-color: lavender;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+	font-family: tahoma;
+	display: block;
+	margin-top: 10px;
+}
+
+img
+{
+	margin-right:10px
+}
+
+body
+{
+	background-color: black;
+}
+
+div.content
+{
+	margin: 20px auto;
+	background-color: lavender;
+	overflow: hidden;
+	padding: 10px;
+}
+	
+img
+{
+	width: 400px;
+	display: block;
+	float: left;
+}
+
+div[class^="group-"] div
+{
+	clear: both;
+	overflow: hidden;
+	margin: 10px;
+	padding:10px;
+}
+
+div.group-1, div.group-2, div.group-4
+{
+	display: none;
+}
+

@@ -1,0 +1,104 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2
+{
+	color: lavender;
+	font-family: verdana;
+	margin: 20px;
+	padding: 15px;
+	border: 5px double black;
+}
+
+body
+{
+	background-color: green;
+}
+div.main-wrap
+{
+	display: flex;
+}
+
+nav
+{
+	flex:1;
+	background-color: black;
+}
+
+div.content
+{
+	flex:7;
+}
+
+div.group-4 div
+{
+  margin: 10px;
+  border: 5px double black;
+  width: 300px;
+  display: inline-block;
+}
+
+div.group-4 img 
+{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+div.group-4 p
+{
+  padding: 15px;
+  color: laveder;
+  font-family: verdana;
+  font size: 20px;
+  color: lavender
+}
+
+div[class^="group-"] div
+{
+	clear: both;
+	overflow: hidden;
+	margin: 10px;
+	padding:10px;
+}
+
+div.group-1, div.group-2, div.group-3
+{
+	display: none;
+}
+
+nav ul li a, nav ul li
+{
+	display: block;
+	border-radius: 30px;
+	text-align: center;
+}
+
+nav ul
+{
+	margin: 20px;
+}
+nav ul li a:hover
+{
+	background-color: black;
+	color: white;
+}
+
+nav ul li a
+{
+	color: lavender;
+	background-color: green;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+	font-family: verdana;
+	display: block;
+	margin-top: 10px;
+}
+
+
+

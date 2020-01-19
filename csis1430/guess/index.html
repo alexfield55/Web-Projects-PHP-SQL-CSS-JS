@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guesssing Game</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	
+	<body>
+		<h1 id="game-message">Lets Play the Guessing Game!</h1>
+		
+		<img id="game-image" src="img/lets-play.jpg">
+		
+		<form action="javascript:void(0);">
+			<input id="user-guess" type="text" placeholder="Enter Your Guess">
+			<input id="play" class="show"type="submit" onclick="playGame();" value="Submit Your Guess">
+			<input id="reset" class="hide" type="submit" onclick="resetGame();" value="Play Again?">
+			
+		</form>
+		
+		<h2>Number of Guesses<h2>
+		<h2 id="numGuess">0</h2>
+	</body>
+</html>
